@@ -1,0 +1,156 @@
+
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Tianhuan} % Your first name
+\familyname{YU} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+\address{No.266 Xinglong Section of Xi Feng Rd. Xi An 710126}{Shaanxi, P.R.China}
+\mobile{(+86) 135 8670 6360}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{yutianhuan2016@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+\quote{Seeking a Scholar Master or a PhD Placement - 21 years old}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2015--2019}{Xidian University - Software Engineering}{}{}{}{GPA : \textbf{\emph3.5/4.0} Rank almost \textbf{5\%} in institute(Rank 20 in Total 450)\\
+Graduation June 2019}  % Arguments not required can be left empty
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Honors \& Awards}
+
+\cventry{Sep-Nov 2017}{The ACM-ICPC Asia Regional Contest}{\textsc{2 Silver Medals} in Xian and Nanning Site}{}{}{}
+
+\cventry{Jan 2017}{MCM Mathematical Contest in Modeling}{\textsc{Meritorious Winner}}{}{}{}
+
+\cventry{Nov 2016}{CMC The Chinese Mathematics Competitions}{\textsc{Second Prize}(Non mathematical class)}{}{}{}{}
+
+\cventry{March 2017}{CCF-CSP(Certified Software Professional)}{\textsc{Transcript scores \textbf{410} points} Rank 0.5\%}{}{}{}
+
+\cventry{2015-2016}{Annual Outstanding Student}{}{}{}{}
+
+\cventry{2015-2017}{The First Prize Scholarship}{}{}{}{}
+
+\cventry{Apr-May}{CCCC Highschool Group Programming Laddar Match}{\textsc{The First Prize} with TEAM}{}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Intermediate}{Crawler, \LaTeX, OpenOffice, Linux(Ubuntu), OpenGL, OpenCV, HTML, PhotoShop, \textsc{Matlab}}
+\cvitem{Advanced}{C/C++, Python, VIM, SQL}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+\begin{small}
+\cvitemwithcomment{Chinese}{Native Speaker}{}
+\cvitemwithcomment{English}{Intermediate}{CET-6 480+}
+\end{small}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+%\bigskip
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistdoubleitem{\textbf{M}athLovers}{\textbf{P}hysics}
+
+\cvlistdoubleitem{\textbf{L}iterature enthusiasts}{\textbf{M}usic}
+
+\cvlistdoubleitem{\textbf{B}asketball(Various Sports competitions)}{\textbf{E}sports lovers}
+
+\cvlistdoubleitem{\textbf{M}ovies}{}
+%\cvlistdoubleitem{Robotics}{}
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+\section{About me}
+\cvitem{}{A highly-motivated learner with strong studying ability and specialized strong interests in the following fields:Data Mining(KDD), Computer Vision and Computer Graphics.I'm eager to accept a PhD or Scholar Matser Placement to do some academy research.}
+\end{document}
